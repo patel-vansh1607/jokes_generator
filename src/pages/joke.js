@@ -14,4 +14,6 @@ const Joke = () =>{
                 <p>{joke}</p>
             </div>
         )
-    }
+}
+
+export default Joke;
