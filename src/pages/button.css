@@ -1,0 +1,21 @@
+.joke-button {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.joke-button:hover {
+    background: linear-gradient(135deg, #ff527b, #ff3b6c);
+    transform: scale(1.05);
+}
+
+.joke-button:active {
+    transform: scale(0.98);
+}
