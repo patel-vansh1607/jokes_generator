@@ -6,4 +6,12 @@ const Joke = () =>{
         .then((res) => res.json())
         .then((data) => setJoke(data.joke));
     }
-}
+
+
+        return(
+            <div className="joke">
+                <Button callApi={fetchApi} />
+                <p>{joke}</p>
+            </div>
+        )
+    }
